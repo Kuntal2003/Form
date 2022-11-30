@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="/Screenshot (34).png" alt="" />
+        <span>
+          <b> <i>Travel Request Approval Form</i> </b>
+        </span>
+        <hr />
+      </div>
+    </header>
+    <body>
+      <span>
+        Name of person making request:
+        <input type="text" placeholder="Enter your name" /></span
+      ><span> Date: <input type="date" /></span> <br />
+      <span>
+        Department:
+        <input type="text" placeholder="Enter your department" /> </span
+      ><br />
+      <span>
+        Purpose of trip: <input type="text" placeholder="Enter purpose" /><br
+      /></span>
+      <span>
+        Justification :
+        <input type="text" placeholder="Enter justification" /><br
+      /></span>
+      <span>
+        Organization sponsoring event:
+        <input type="text" placeholder="organization name" /><br
+      /></span>
+      <span>
+        metting :
+        <span>
+            <select name="metting" id="metting">
+                <option value="no data">select</option>
+                <option value="local">Local</option>
+                <option value="regional">regional</option>
+                <option value="national">National</option>
+                <option value="international">International</option>
+            </select>
+          </span>
+      <span>
+        Role at meeting/conference:
+        <input type="text" placeholder="Enter your role"
+      /></span><br>
+      <span>
+        Destination: <input type="text" placeholder="Enter destionation address" >
+      </span><br>
+      <span>
+        Date of departure: <input type="date">
+      </span>
+      <span>
+        Date of return: <input type="date">
+      </span><br>
+      <span>
+        Classes and/or University responsibilities to be covered and by whom: <br>
+        <textarea name="" id="responsibilities" cols="100" rows="5"></textarea>
+      </span> <br>
+       <b> <big>Estimated expenses:</big> </b><br>
+       <table border="">
+        <tr>
+          <td>
+            <pre>
+             
+            <b>
+            1.Transportation (plane, personal car, etc.)<br>
+            2.Lodging <br> 
+            3.Per diem<br>
+            4.Registration Fees<br>
+            5.Miscellaneous (parking, etc.)<br>
+            6.Total
+            </b>
+            </pre>
+            
+          </td>
+          <td>
+            <table>
+              <tr>
+                <th>
+                  <textarea name="" id="transportation" cols="5" rows="1"></textarea>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <textarea name="" id="lodging" cols="5" rows="1"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea name="" id="per diem" cols="5" rows="1"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea name="" id="Registration Fees" cols="5" rows="1"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea name="" id="Miscellaneous" cols="5" rows="1"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea name="" id="Total" cols="5" rows="1" placeholder="$0.00"></textarea>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+       </table>
+       
+      <br>
+      <span>
+            Source of funding:
+            <label for="department"> 
+                <input type="radio" value="department" name="source" id="department">Department
+            </label>
+            <label for="collage"> 
+                <input type="radio" value="collage" name="source" id="collage">Collage
+            </label>
+            <label for="other"> 
+                <input type="radio" value="other" name="source" id="other">Other
+            </label>
+      </span><br>
+      <span>
+        <b><big>Account type:</big> </b> State % <textarea name="" id="State" cols="3" rows="1"></textarea>
+        Foundation %<textarea name="" id="Foundation" cols="3" rows="1"></textarea>
+      </span><br>
+      <span>
+        Requestor's signature <input type="file" name="filename" id="image"> Date <input type="Date"><br>  
+      </span>
+      <span>
+        Approval recommendation: 
+        <label for="approved"></label>
+        <input type="radio" value="approved" name="approval" id="approved">Approved
+        <label for="disapproved"></label>
+        <input type="radio" value="disapproved" name="approval" id="disapproved">Disapproved
+      </span>
+      <p> <small>Division Vice President's approval is required for travel exceeding a one-way distance of more than 100 miles and/or an overnight stay</p></small>
+      Touch here👉<a href="https://techcommunity.microsoft.com/t5/image/serverpage/image-id/22771i53EF94F903D2CEB0/image-size/large?v=v2&px=999"><input type="submit" name="submit" id="submitid"></a> for submit your respons
+    
+    </body>
+  </body>
+</html>
